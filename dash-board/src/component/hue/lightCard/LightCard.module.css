@@ -1,0 +1,44 @@
+.card {
+  height: 300px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  background-color: #1a1a1a;
+  background-image: radial-gradient(
+    closest-side at 50% 60%,
+    rgba(26, 26, 26),
+    rgba(255, 255, 255, 0.085),
+    rgba(26, 26, 26, 1),
+    rgba(26, 26, 26, 1)
+  );
+  transition: background-color 0.5s;
+}
+
+.card:hover {
+  border-color: #646cff;
+}
+
+.on {
+  background-color: rgb(224, 224, 224);
+  background-image: radial-gradient(
+    closest-side at 50% 60%,
+    rgba(26, 26, 26),
+    rgba(255, 255, 255, 0.085),
+    rgba(26, 26, 26, 0.85),
+    rgba(26, 26, 26, 1)
+  );
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0);
+}

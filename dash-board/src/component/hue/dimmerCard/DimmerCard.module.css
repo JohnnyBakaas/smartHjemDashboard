@@ -1,0 +1,39 @@
+.card {
+  height: 300px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  background-color: red;
+}
+
+.card:hover {
+  border-color: #646cff;
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+}
+
+.ranger[type="range"] {
+  appearance: slider-vertical;
+}
+
+.ranger[type="range"]::-webkit-slider-runnable-track {
+  background: #053a5f;
+  width: 50px;
+  border-radius: 8px;
+}
+
+.ranger[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  background-color: #000000;
+  height: 2rem;
+  width: 1rem;
+}
